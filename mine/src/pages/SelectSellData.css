@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.Select-Main {
+    text-align: center;
+    font-size: 40px;
+  /*  border-style: dashed;*/
+    border-width: 1px;
+    background-color:  rgb(201, 200, 200);
+    height: 150px;
+}
+
+
+.Select-Title {
+    text-align: center;
+    font-size: 40px;
+  /*  border-style: dashed;*/
+    border-width: 1px;
+    margin-left: 3cm;
+    margin-right: 3cm;
+    padding-top:1.1cm;
+    font-family: 'GangwonEduPowerExtraBoldA';
+}
+
+.Select-Body {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 7%;
+}
+
+.Select-Images {
+    max-width: 6.5cm;
+    max-height: 6.5cm;
+    border-style: dashed;
+    border-width: 7px;
+}
+
+.Select-Tag {
+    font-size: 20pt;
+    margin-top: 3.;
+}
+
+.Select-Block {
+   /* border-style: dashed;*/
+    height: 8cm;
+    width: 8cm;
+    cursor: pointer;
+}
+
